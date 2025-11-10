@@ -1,7 +1,7 @@
 # 🐏 Animal Sound Identifier
 This repository contains a Jupyter notebook that serves as a practical example of how to utilize PyTorch Lightning for audio classification tasks. In this instance, we have selected a subset of [YashNita's Animal Sound Dataset](https://github.com/YashNita/Animal-Sound-Dataset), focusing on five specific animal classes: chicken, cow, donkey, frog, and sheep. To extract features from the audio data, we employ the [Librosa](https://librosa.org/doc/latest/index.html) library, which is well-regarded for its robust audio analysis capabilities. The model architecture contains two convolutional layers, each followed by a max pooling layer, leading into a fully connected layer designed to enhance classification performance. However, it is important to note that the model's accuracy is currently not satisfactory, indicating ample opportunity for improvement.
 
-<img src="https://github.com/bshtmichielsen/animal_sound_classifier/blob/main/BANNER.jpg?raw=true" />
+<img src="https://github.com/bshtmichielsen/animal_sound_identifier/blob/main/BANNER.jpg?raw=true" />
 
 *Image by Stable Diffusion: a machine that can classify animal sounds*
 
