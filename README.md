@@ -5,7 +5,7 @@ This repository contains a Jupyter notebook that serves as a practical example o
 
 *Image by Stable Diffusion: a machine that can classify animal sounds*
 
-This notebook is intentionally designed as a foundational starting point and does not strictly adhere to established best practices as it is meant as a learning opportunity. This repo belongs to a five part course: 🏠 [House Price Predictor](https://github.com/bshtmichielsen/house_price_predictor), 🐏 [Animal Sound Identifier](https://github.com/bshtmichielsen/animal_sound_identifier), 👗 [Clothing Sorter](https://github.com/bshtmichielsen/clothing_sorter),🍎 [Fruit Detector](https://github.com/bshtmichielsen/expert_chat), 💬 [Expert Chat](https://github.com/bshtmichielsen/expert_chat)
+This notebook is intentionally designed as a foundational starting point and does not strictly adhere to established best practices as it is meant as a learning opportunity. This repo belongs to a five part course:&nbsp;&nbsp;&nbsp; 🏠&nbsp;[House&nbsp;Price&nbsp;Predictor](https://github.com/bshtmichielsen/house_price_predictor)&nbsp;&nbsp;&nbsp; 🐏&nbsp;[Animal&nbsp;Sound&nbsp;Identifier](https://github.com/bshtmichielsen/animal_sound_identifier)&nbsp; &nbsp;👗&nbsp;[Clothing&nbsp;Sorter](https://github.com/bshtmichielsen/clothing_sorter)&nbsp;&nbsp;&nbsp; 🍎&nbsp;[Fruit&nbsp;Detector](https://github.com/bshtmichielsen/expert_chat)&nbsp;&nbsp;&nbsp; 💬&nbsp;[Expert&nbsp;Chat](https://github.com/bshtmichielsen/expert_chat)
 
 ## 🎯 Learning alignments
 The following aspects of machine learning are part of this example:
