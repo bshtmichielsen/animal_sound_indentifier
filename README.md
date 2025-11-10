@@ -11,21 +11,20 @@ This notebook is intentionally designed as a foundational starting point and doe
 The following aspects of machine learning are part of this example:
 
 - Working with data files, in this case audio file
-- Feature extraction using a library
-- Neural Network building using layers.
+- Feature extraction using a specialistic library
+- Neural Network building using layers
 - Accuracy, Precision, Recall
 - Confidence scores
 
 ## 🤔 Considerations for improvement
 The following is a list of considerations for improvement or for your own project.
 
-- The train/val/test-split is random and does not guarantee that all classes are represented well in val and test. This is of a particular concern for unbalanced data (which this example has) as it is technically possible that a class does not appear in val or test and therefore the model cannot be validated or tested for that class. To counter this issue the split was made to quite largely favour the val and test proportions whereas a common practice would be to keep them smaller and have more train data.
+- Currently only 13 MFCC features are extracted from librosa, quite likely additional features may be interesting to try or perhaps add.
+- When the model gives a correct prediction with a high confidence score, the model performs better than when it gives a correct prediction but with a low confidence score. We currently have no metric that measures this, as we only look at correct/wrong. Could you add a metric for this?
 - There is no evaluation on whether the model is overfitted, it may very well be.
-- Currently only 13 MFCC features are extracted from librosa, quite likely additional features may be interesting to add.
-- Adding a Confusion Matrix might be a good idea.
 - more?
 
 ## ⭐ Citation & Star
 If you use my work please cite and star ⭐ this repo. Thanks!
 
-Michielsen, Bas S.H.T. (2025) "Animal Sound Classifier" GitHub: https://github.com/bshtmichielsen/animal_sound_classifier
+Michielsen, Bas S.H.T. (2025) "Animal Sound Identifier" GitHub: https://github.com/bshtmichielsen/animal_sound_identifier
